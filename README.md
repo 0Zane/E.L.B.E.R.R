@@ -1,4 +1,4 @@
-# 🤖 Animatronic
+# 🤖 Moko - Animatronic
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Platform](https://img.shields.io/badge/Platform-Embedded-blue)
