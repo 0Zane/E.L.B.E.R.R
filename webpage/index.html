@@ -3,32 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moko - Animatronic Project</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>E.L.B.E.R.R System Console (fanmade)</title>
+    <link rel="icon" type="image/png" href="elberr.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0434e6;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Courier New', monospace;
+        }
+
+        .console-window {
+            width: 90%;
+            max-width: 800px;
+            background: #1a1a1a;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.8), inset 0 0 20px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        .title-bar {
+            background: #020a44;
+            padding: 4px 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: move;
+            user-select: none;
+        }
+
+        .title-text {
+            color: white;
+            font-size: 13px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .icon {
+            width: 16px;
+            height: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .window-controls {
+            display: flex;
+            gap: 4px;
+        }
+
+        .window-btn {
+            width: 20px;
+            height: 18px;
+            background: #c0c0c0;
+            border: 1px solid;
+            border-color: #dfdfdf #808080 #808080 #dfdfdf;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: bold;
+            color: black;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .window-btn:active {
+            border-color: #808080 #dfdfdf #dfdfdf #808080;
+        }
+
+        .console-content {
+            background: #000000;
+            padding: 16px;
+            height: 400px;
+            color: #ffffff;
+            font-size: 14px;
+            line-height: 1.6;
+            overflow: hidden;
+            position: relative;
+            text-shadow: 0 0 10px rgba(218, 8, 8, 0.3);
+        }
+
+        .console-text {
+            font-family: 'MS DOS', 'Courier New', monospace;
+            letter-spacing: 1px;
+        }
+
+        .console-line {
+            margin-bottom: 8px;
+        }
+
+        .console-line.error {
+            color: #bd5646;
+        }
+
+        .loading-spinner {
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            width: 24px;
+            height: 24px;
+        }
+
+        .spinner {
+            width: 100%;
+            height: 100%;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-top: 2px solid #ffffff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 600px) {
+            .console-window {
+                width: 95%;
+            }
+
+            .console-content {
+                height: 300px;
+                font-size: 12px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="scanlines"></div>
-        <div class="content">
-            <div class="header-line"></div>
-            <h1 class="title">MOKO</h1>
-            <p class="subtitle">Animatronic Intelligence System</p>
-            
-            <div class="status-panel">
-                <div class="status-line">
-                    <span class="label">STATUS:</span>
-                    <span class="value">DEVELOPMENT</span>
-                    <span class="indicator"></span>
-                </div>
+    <div class="console-window">
+        <div class="title-bar">
+            <div class="title-text">
+                <span class="icon"><img src="elberr.png" alt="E.L.B.E.R.R"></span>
+                <span>E.L.B.E.R.R System Console (fanmade)</span>
             </div>
-            
-            <h2 class="soon">SOON AVAILABLE</h2>
-            <p class="coming-text">Enhanced systems initializing...</p>
-            
-            <div class="footer-line"></div>
+            <div class="window-controls">
+                <div class="window-btn">_</div>
+                <div class="window-btn">□</div>
+                <div class="window-btn">×</div>
+            </div>
+        </div>
+        <div class="console-content">
+            <div class="console-text">
+                <div class="console-line">> System.init()</div>
+                <div class="console-line">RUNNING DIAGNOSTIC...</div>
+                <div class="console-line error">SYSTEMS CHECK #1: Brain::class not found</div>
+                <div class="console-line error">SYSTEMS CHECK #2: Body::class not found</div>
+                <div class="console-line error">SYSTEMS CHECK #3: Neural::system not initialized</div>
+            </div>
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+            </div>
         </div>
     </div>
 
-    <script src="script.js"></script>
-</body>
-</html>
+    <script>
+        const consoleWindow = document.querySelector('.console-window');
+        const titleBar = document.querySelector('.title-bar');
+        
+        let isDragging = false;
+        let currentX;
+        let currentY;
+        let initialX;
+        let initialY;
+
+        titleBar.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            initialX = e.clientX - consoleWindow.offsetLeft;
+            initialY = e.clientY - consoleWindow.offsetTop;
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (isDragging) {
+                currentX = e.clientX - initialX;
+                currentY = e.clientY - initialY;
+                
+                consoleWindow.style.position = 'fixed';
+                consoleWindow.style.left = currentX + 'px';
+                consoleWindow.style.top = currentY + 'px';
+            }
+        });
+
+        document.addEventListener('mouseup', () => {
+            isDragging = false;
+        });
+    </script>
