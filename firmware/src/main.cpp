@@ -1,19 +1,11 @@
 #include <Arduino.h>
+//include libraries for bme280, ble modules, and other modules not related with servos
 
 void setup() {
-  Serial.begin(9600);
-  
-  // Initialize servo position reader
-  setupServos();
-  
-  Serial.println("Animatronic Eyes - Servo Position Monitor");
-  Serial.println("==========================================");
+  //initialize UART communication with rp5
+  //initialize communications with modules
 }
 
 void loop() {
-  // Read and print all servo positions
-  printServoPositions();
-  
-  // Print every 500ms
-  delay(500);
+  //listen to UART from rp5 and send information (maybe direct regular push)
 }
