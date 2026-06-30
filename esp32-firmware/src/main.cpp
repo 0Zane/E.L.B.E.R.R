@@ -1,4 +1,8 @@
 #include <Arduino.h>
+#include <pins.h>
+#include <temperature.h>
+#include <wifi.h>
+
 //include libraries for bme280, ble modules, and other modules not related with servos
 
 void setup() {
