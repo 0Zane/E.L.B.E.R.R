@@ -5,6 +5,9 @@
 //Include custom header files
 #include "body.h"
 #include "temperature.h"
+#include "nrf24.h"
+#include "nfc.h"
+#include "wififeatures.h"
 
 bool skullopen = false;
 
