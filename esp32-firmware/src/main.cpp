@@ -1,30 +1,37 @@
 //Include system libraries
 #include <Arduino.h>
-#include <pins.h>
+#include <Wire.h>
 
 //Include custom header files
+#include "pins.h"
 #include "body.h"
 #include "temperature.h"
 #include "nrf24.h"
-#include "nfc.h"
 #include "wififeatures.h"
 
-bool skullopen = false;
 
 void setup() {
-  //initialize UART communication with rp5
-  //initialize communications with modules
-    Serial.println("Adafruit VL53L0X test.");
-  if (!lox.begin()) {
-    Serial.println(F("Failed to boot VL53L0X"));
-    while(1);
+  Serial.begin(9600);
+  Wire.begin(SDA, SCL);
+  Wire.setClock(400000L);
+
+  if (!initBME280()) {
+    Serial.println("BME280 did not start.");
   }
-  lox.startRangeContinuous();
+
+  Serial.println("Starting VL53L0X...");
+  if (!lox.begin()) {
+    Serial.println("VL53L0X did not respond.");
+  } else {
+    lox.startRangeContinuous();
+    delay(100);
+    Serial.println("VL53L0X started.");
+  }
 }
 
 void loop() {
-  //listen to UART from rp5 and send information (maybe direct regular push)
-  skullopen = isskullopen();
-  //send information to RP5
-
+  Serial.println(skullstate());
+  Serial.println(readTemperature());
+  Serial.println(readHumidity());
+  delay(1000);
 }
