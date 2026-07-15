@@ -1,2 +1,26 @@
-hardware/mcu_board/mcu_board.kicad_prl
-hardware/mcu_board//modules.kicad_prl
+# Local and temporary files
+*.local
+*.local.*
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.rej
+*~
+*.swp
+*.swo
+*.log
+*.pid
+*.lck
+*.kicad_prl
+
+# Backup folders
+**/*-backups/
+**/backups/
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
