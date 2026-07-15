@@ -1,8 +1,19 @@
 #include "body.h"
 
-bool isskullopen(){
+Adafruit_VL53L0X lox = Adafruit_VL53L0X();
 
-      if (lox.isRangeComplete()) {
-        return lox.readRange() < 30; 
-      }
+int skullstate() {
+  uint16_t distance = lox.readRange();
+
+  if (lox.timeoutOccurred()) {
+    return 0;
+  }
+
+  if (distance < 30) {
+    return 1;
+  } else if (distance < 40) {
+    return 2;
+  } else {
+    return 3;
+  }
 }
