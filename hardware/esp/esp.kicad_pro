@@ -768,6 +768,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -816,15 +822,24 @@
         "filename": "esp.kicad_sch",
         "name": "esp",
         "uuid": "1af9f8de-01c4-4db4-9e1a-5a2acf839c86"
+      },
+      {
+        "filename": "modules.kicad_sch",
+        "name": "modules",
+        "uuid": "44c5117f-5e76-477e-b7df-13896ca2c21f"
       }
     ],
-    "used_designators": "L1-4,D1-7,#PWR1-40,C1-16,J1-2,R1-22,#FLG1,SW1-2,SW7,U1-5,Y1",
+    "used_designators": "AE1,L1-3,D1-10,#PWR1-50,#FLG1-2,R1-29,J1-6,C1-23,SW1-2,U1-6,Y1,Q1",
     "variants": []
   },
   "sheets": [
     [
       "1af9f8de-01c4-4db4-9e1a-5a2acf839c86",
       "esp"
+    ],
+    [
+      "44c5117f-5e76-477e-b7df-13896ca2c21f",
+      "modules"
     ]
   ],
   "text_variables": {},
