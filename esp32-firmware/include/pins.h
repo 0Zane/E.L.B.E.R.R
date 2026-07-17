@@ -6,7 +6,8 @@
 #define MOSI 11
 #define MISO 13
 #define SCK 12
-#define NRF_CS 10
+#define NRF_CSN 10
+#define NRF_CE 14
 
 //UART WITH RASPBERRY PI
 #define TX 17
@@ -17,3 +18,5 @@
 #define OSKULL 2
 #define CSKULL 3
 #define NFSKULL 4
+#define UART_TX 5
+#define UART_RX 6
