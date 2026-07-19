@@ -1,6 +1,7 @@
 //Include system libraries
 #include <Arduino.h>
 #include <Wire.h>
+#include <HardwareSerial.h>
 
 //Include custom header files
 #include "pins.h"
@@ -9,8 +10,13 @@
 #include "nrf24.h"
 #include "wififeatures.h"
 
+String receivedMessage = "";
 
 void setup() {
+  HardwareSerial rp5Serial(2); 
+
+  rp5Serial.begin(115200, SERIAL_8N1, 18, 17);
+
   Serial.begin(9600);
   Wire.begin(SDA, SCL);
   Wire.setClock(400000L);
