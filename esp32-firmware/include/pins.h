@@ -18,5 +18,3 @@
 #define OSKULL 2
 #define CSKULL 3
 #define NFSKULL 4
-#define UART_TX 5
-#define UART_RX 6
