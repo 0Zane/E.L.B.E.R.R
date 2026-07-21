@@ -14162,7 +14162,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7nH"
+		(property "Value" "3.9nH"
 			(at 128.016 38.862 90)
 			(show_name no)
 			(do_not_autoplace no)
