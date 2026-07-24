@@ -18,3 +18,4 @@
 #define OSKULL 2
 #define CSKULL 3
 #define NFSKULL 4
+#define TEMP 7
