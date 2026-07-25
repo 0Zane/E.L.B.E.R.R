@@ -3924,10 +3924,10 @@
 		(uuid "7c96822b-349b-484a-9036-a85032b2e0f7")
 	)
 	(junction
-		(at 81.28 101.6)
+		(at 74.93 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8f075df1-965e-4bb3-b221-e29fb3973278")
+		(uuid "8b835f61-9db2-478a-95cf-9875a7d847a7")
 	)
 	(junction
 		(at 127 26.67)
@@ -3958,12 +3958,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abd7f549-bda5-419e-a380-fe5b0b7a9825")
-	)
-	(junction
-		(at 74.93 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "acd74f1f-58f2-4cb9-881e-bdc71521f317")
 	)
 	(junction
 		(at 120.65 45.72)
@@ -4018,12 +4012,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea5abed9-e205-426b-a0eb-343bae343be4")
-	)
-	(junction
-		(at 81.28 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0f7c834-901c-4fe3-8b1e-8b98d66c496f")
 	)
 	(junction
 		(at 83.82 86.36)
@@ -4169,16 +4157,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 81.28 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04f52e8d-3986-4a5b-9f15-e624fbb431d0")
-	)
-	(wire
-		(pts
 			(xy 73.66 99.06) (xy 67.31 99.06)
 		)
 		(stroke
@@ -4219,7 +4197,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 83.82 93.98)
+			(xy 74.93 93.98) (xy 83.82 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4276,16 +4254,6 @@
 			(type default)
 		)
 		(uuid "18319c39-bf76-425f-8047-5cfff465c361")
-	)
-	(wire
-		(pts
-			(xy 81.28 127) (xy 72.39 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "197c2822-511a-4cc5-9346-a5df9e6bb656")
 	)
 	(wire
 		(pts
@@ -4809,16 +4777,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 102.87) (xy 81.28 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83087f6d-278c-47fe-9795-ec3c76c85fe2")
-	)
-	(wire
-		(pts
 			(xy 198.12 95.25) (xy 198.12 100.33)
 		)
 		(stroke
@@ -4886,16 +4844,6 @@
 			(type default)
 		)
 		(uuid "9425eed4-5035-4546-965e-ffaf397ea6b6")
-	)
-	(wire
-		(pts
-			(xy 74.93 93.98) (xy 72.39 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a516af0-56b9-438c-9db5-0932573a7905")
 	)
 	(wire
 		(pts
@@ -9855,7 +9803,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 81.28 97.79 0)
+			(at 81.28 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
