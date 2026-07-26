@@ -1,1 +1,3 @@
-void deauth ();
+using namespace std;
+
+byte nScannedWifi();

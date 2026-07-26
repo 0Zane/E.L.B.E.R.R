@@ -1,3 +1,8 @@
 #include <wifi.h>
 #include "wififeatures.h"
-void deauth() {}
+
+using namespace std;
+
+byte nScannedWifi(){
+    return WiFi.scanNetworks();
+}
