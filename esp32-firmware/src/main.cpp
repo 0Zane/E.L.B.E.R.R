@@ -39,5 +39,7 @@ void loop() {
   Serial.println(skullstate());
   Serial.println(readTemperature());
   Serial.println(readHumidity());
+  Serial.println("Scanned wifis:");
+  Serial.println(nScannedWifi());
   delay(1000);
 }

@@ -1,3 +1,14 @@
+#include <Arduino.h>
+
 using namespace std;
 
-byte nScannedWifi();
+int nScannedWifi();
+
+struct Wifi {
+    char ssid[33];
+    int channel;
+    int RSSI;
+    String encryption;
+}
+
+
