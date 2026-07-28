@@ -27,10 +27,6 @@ float readTemperature(){
     return bme.readTemperature();
 }
 
-float readPressure(){
-    bme.takeForcedMeasurement();
-    return bme.readPressure() / 100.0F;
-}
 
 float readHumidity(){
     bme.takeForcedMeasurement();
