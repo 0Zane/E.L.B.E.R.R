@@ -9,7 +9,7 @@ int nScannedWifi(){
 }
 
 array<String,10> wifinames(int nWifi){
-    String names[nWifi];
+    String names[10];
     for (int i = 0; i < nWifi; i ++){
         names[i] = WiFi.ssid(i);
     }
