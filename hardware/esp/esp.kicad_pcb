@@ -30074,6 +30074,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "DO NOT PLUG PINS AND USB "
+		(at 91 111 0)
+		(layer "F.SilkS")
+		(uuid "461bec14-1832-4483-8a81-ef3dc489129c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "NO COPPER"
 		(at 169 98.5 0)
 		(layer "F.SilkS")
@@ -31475,14 +31487,6 @@
 		(uuid "fde0fd3f-eba4-48cb-8f85-acd4d1adca94")
 	)
 	(segment
-		(start 180.5 91.325)
-		(end 180.5 93)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D9-A)")
-		(uuid "b4762031-15cf-4a14-8b97-7241ee859266")
-	)
-	(segment
 		(start 144.775 119.025)
 		(end 147.224999 119.025)
 		(width 0.2)
@@ -31689,6 +31693,14 @@
 		(layer "B.Cu")
 		(net "EN")
 		(uuid "8fff039b-feee-418b-8a37-f3ee31a9a512")
+	)
+	(segment
+		(start 180.5 91.325)
+		(end 180.5 93)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(D9-A)")
+		(uuid "b4762031-15cf-4a14-8b97-7241ee859266")
 	)
 	(segment
 		(start 127.275 115.215)
