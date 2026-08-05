@@ -3773,7 +3773,7 @@
 	)
 	(text "PAS LA MEME TENSION DES TVS ENTRE VBUS (5V) ET USCB (3V3)"
 		(exclude_from_sim no)
-		(at 79.756 107.95 0)
+		(at 80.01 128.524 0)
 		(effects
 			(font
 				(size 1.27 1.27)

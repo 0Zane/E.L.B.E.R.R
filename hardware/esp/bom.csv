@@ -7,7 +7,7 @@
 "C13","1nF","Capacitor_SMD:C_0603_1608Metric","1",""
 "C14","33nF","Capacitor_SMD:C_0603_1608Metric","1",""
 "C16,C19","22pF","Capacitor_SMD:C_0603_1608Metric","2",""
-"C17","2.2nF","Capacitor_SMD:C_0603_1608Metric","1",""
+"C17","2.2nF","Capacitor_SMD:C_0805_2012Metric","1",""
 "C20","4.7pF","Capacitor_SMD:C_0805_2012Metric","1",""
 "C21","1.5pF","Capacitor_SMD:C_0603_1608Metric","1",""
 "C22","1pF","Capacitor_SMD:C_0603_1608Metric","1",""
