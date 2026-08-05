@@ -3624,6 +3624,16 @@
 		)
 		(uuid "8c2cac37-f35f-45cc-a3a2-b88814ef6770")
 	)
+	(text "(skull opening detection)"
+		(exclude_from_sim no)
+		(at 122.936 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a57a4c57-809f-4198-ad9c-e2723f74a5bb")
+	)
 	(text "0x76"
 		(exclude_from_sim no)
 		(at 217.17 87.63 0)
@@ -3634,9 +3644,9 @@
 		)
 		(uuid "d2957cb1-091e-4a6f-8059-1ec46a284ce1")
 	)
-	(text "NRF24l01"
+	(text "2.4GHz Transreceiver"
 		(exclude_from_sim no)
-		(at 28.448 23.622 0)
+		(at 36.576 50.292 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3644,9 +3654,19 @@
 		)
 		(uuid "d7168341-6891-47c6-b40a-2f5a0cf185a4")
 	)
-	(text "Skull opening detector"
+	(text "0x29"
 		(exclude_from_sim no)
-		(at 124.968 117.856 0)
+		(at 106.426 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f18e3e41-db1a-44e3-96f9-ab9b55ace423")
+	)
+	(text "Distance sensor"
+		(exclude_from_sim no)
+		(at 122.428 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3731,12 +3751,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f852d5f-54ed-4fc7-af1b-21c9cd175963")
-	)
-	(junction
-		(at 243.84 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54c32165-955f-48e8-899c-f5d2f78f1227")
 	)
 	(junction
 		(at 66.04 127)
@@ -3841,6 +3855,12 @@
 		(uuid "a17a77c3-a887-4437-8363-f47ef931eb08")
 	)
 	(junction
+		(at 243.84 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf7d166a-d8bc-4dc2-b609-1cec22e17ad8")
+	)
+	(junction
 		(at 80.01 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3857,12 +3877,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7653215-aa8f-45be-a535-27c90f938634")
-	)
-	(junction
-		(at 228.6 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db04016c-2295-457b-9e4c-469574e5507c")
 	)
 	(junction
 		(at 220.98 50.8)
@@ -4082,16 +4096,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 54.61) (xy 256.54 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "301eacce-8796-49d8-84e9-7e4231e31906")
-	)
-	(wire
-		(pts
 			(xy 139.7 71.12) (xy 139.7 68.58)
 		)
 		(stroke
@@ -4129,16 +4133,6 @@
 			(type default)
 		)
 		(uuid "30bdce6d-4e9b-4953-8a6f-78602cc2c778")
-	)
-	(wire
-		(pts
-			(xy 243.84 54.61) (xy 243.84 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3244de12-5e78-4fbb-abfa-b66f931a8a3d")
 	)
 	(wire
 		(pts
@@ -4259,6 +4253,16 @@
 			(type default)
 		)
 		(uuid "6554c858-64ba-4bb0-9522-11f3c1408ad7")
+	)
+	(wire
+		(pts
+			(xy 243.84 50.8) (xy 243.84 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696da6af-dc0e-4beb-80df-a939b92989d3")
 	)
 	(wire
 		(pts
@@ -4402,6 +4406,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 43.18) (xy 243.84 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7d2a01-931d-4dd2-b621-c9c5eb099a86")
+	)
+	(wire
+		(pts
 			(xy 215.9 50.8) (xy 220.98 50.8)
 		)
 		(stroke
@@ -4499,6 +4513,16 @@
 			(type default)
 		)
 		(uuid "906ff038-d2e0-4a75-98e7-96e9ea7536a9")
+	)
+	(wire
+		(pts
+			(xy 255.27 50.8) (xy 251.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "911cd4ad-1cc3-43dd-bade-c1b069336b6a")
 	)
 	(wire
 		(pts
@@ -4999,16 +5023,6 @@
 			(type default)
 		)
 		(uuid "f2cfa298-0bf1-4333-8d1c-23440972bc45")
-	)
-	(wire
-		(pts
-			(xy 228.6 43.18) (xy 243.84 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f752e84d-3e05-4edc-bbfa-c8d39ab5a7b1")
 	)
 	(wire
 		(pts
@@ -6520,6 +6534,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 255.27 50.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10d89600-4c2e-447d-bbe1-690ad017bcb6")
+		(property "Reference" "#PWR057"
+			(at 255.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22814f5f-531f-49dd-9b3b-2adba34bafcb")
+		)
+		(instances
+			(project "esp"
+				(path "/44c5117f-5e76-477e-b7df-13896ca2c21f"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 129.54 135.89 0)
 		(unit 1)
@@ -7335,7 +7429,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 243.84 46.99 0)
+		(at 247.65 50.8 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7346,7 +7440,7 @@
 		(dnp no)
 		(uuid "2b2b5188-26c5-4bc9-97f5-6f38bfd40656")
 		(property "Reference" "C24"
-			(at 248.666 43.942 0)
+			(at 248.412 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7356,7 +7450,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 248.92 46.99 0)
+			(at 248.158 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7366,7 +7460,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 244.8052 43.18 0)
+			(at 243.84 49.8348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7377,7 +7471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 46.99 0)
+			(at 247.65 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7388,7 +7482,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 243.84 46.99 0)
+			(at 247.65 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7399,7 +7493,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 243.84 46.99 0)
+			(at 247.65 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7410,7 +7504,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 243.84 46.99 0)
+			(at 247.65 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7421,7 +7515,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 243.84 46.99 0)
+			(at 247.65 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7432,7 +7526,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 243.84 46.99 0)
+			(at 247.65 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7443,7 +7537,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 243.84 46.99 0)
+			(at 247.65 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13197,7 +13291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 75.692 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -16535,7 +16629,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 256.54 54.61 0)
+		(at 243.84 43.18 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16547,7 +16641,7 @@
 		(fields_autoplaced yes)
 		(uuid "dacd55e3-5dcf-4a1b-ac28-90c1f6cfd268")
 		(property "Reference" "#PWR052"
-			(at 256.54 58.42 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16558,7 +16652,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 259.08 53.3399 0)
+			(at 246.38 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16569,7 +16663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 54.61 0)
+			(at 243.84 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16580,7 +16674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 54.61 0)
+			(at 243.84 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16591,7 +16685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 256.54 54.61 0)
+			(at 243.84 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17270,4 +17364,5 @@
 			(page "2")
 		)
 	)
+	(embedded_fonts no)
 )
