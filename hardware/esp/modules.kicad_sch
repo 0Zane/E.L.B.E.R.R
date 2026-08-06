@@ -1970,8 +1970,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -11.43 17.78 0)
+			(property "Reference" "U5"
+				(at 4.6833 21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1982,7 +1982,7 @@
 				)
 			)
 			(property "Value" "NRF24L01"
-				(at 5.08 17.78 0)
+				(at 4.6833 19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2017,6 +2017,248 @@
 				)
 			)
 			(property "Description" "Ultra low power 2.4GHz RF Transceiver, QFN-20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Name" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Part_Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S3.3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S4.1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Availability" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Check_prices" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MF" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MP" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PURCHASE-URL" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SnapEDA_Link" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SNAPEDA_PACKAGE_ID" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2260,7 +2502,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -20.32 90)
+					(at -3.81 -20.32 90)
 					(length 3.81)
 					(name "VSS"
 						(effects
@@ -2278,7 +2520,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 -12.7 180)
+					(at 15.24 -11.43 180)
 					(length 3.81)
 					(name "XC2"
 						(effects
@@ -2368,7 +2610,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -20.32 90)
+					(at -1.27 -20.32 90)
 					(length 3.81)
 					(name "VSS"
 						(effects
@@ -2422,7 +2664,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 -20.32 90)
+					(at 1.27 -20.32 90)
 					(length 3.81)
 					(name "VSS"
 						(effects
@@ -2476,7 +2718,7 @@
 					)
 				)
 				(pin power_in line
-					(at 5.08 -20.32 90)
+					(at 3.81 -20.32 90)
 					(length 3.81)
 					(name "VSS"
 						(effects
@@ -2486,6 +2728,24 @@
 						)
 					)
 					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 -20.32 90)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3699,12 +3959,6 @@
 		(uuid "1516a387-e40a-4cbd-ae47-5ec16ba0083f")
 	)
 	(junction
-		(at 96.52 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25b33797-a29d-41b9-9fd5-e2de160607f8")
-	)
-	(junction
 		(at 228.6 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3759,12 +4013,6 @@
 		(uuid "55b74753-1a5f-4edc-af7c-f6e4321fa81a")
 	)
 	(junction
-		(at 101.6 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56782c5f-e2df-4551-b47a-75f349da20dc")
-	)
-	(junction
 		(at 134.62 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3799,6 +4047,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73e733c5-4fb5-420e-bf59-4b452ed74f6c")
+	)
+	(junction
+		(at 95.25 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75dec2f8-c3cd-477e-8ddf-7973b75e56d0")
+	)
+	(junction
+		(at 100.33 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76701036-bf61-40cd-8d42-e53a1cc56b15")
 	)
 	(junction
 		(at 156.21 85.09)
@@ -3843,12 +4103,6 @@
 		(uuid "9eab297e-e61d-48ae-9f34-41bd8e9df16e")
 	)
 	(junction
-		(at 99.06 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a14c24fa-765a-4921-b08e-9249a7c85a39")
-	)
-	(junction
 		(at 96.52 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3891,6 +4145,12 @@
 		(uuid "ea810c35-66a7-4647-b619-8c2561725cee")
 	)
 	(junction
+		(at 102.87 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efc2bc9f-6cee-4812-8ed9-11e2c455bc9c")
+	)
+	(junction
 		(at 134.62 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3901,6 +4161,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f39ca270-17cb-4dbd-a8b9-34cf6bcccae6")
+	)
+	(junction
+		(at 97.79 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb1f791b-b1aa-4630-96b8-fee6a6af68a4")
 	)
 	(no_connect
 		(at 226.06 62.23)
@@ -3976,6 +4242,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 68.58) (xy 95.25 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184b9b9f-081a-4102-9276-383360a3d045")
+	)
+	(wire
+		(pts
 			(xy 46.99 35.56) (xy 59.69 35.56)
 		)
 		(stroke
@@ -3993,6 +4269,16 @@
 			(type default)
 		)
 		(uuid "1cfe53ca-35df-4889-8ec9-bae94a0d5b49")
+	)
+	(wire
+		(pts
+			(xy 111.76 59.69) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f68d01f-4835-4bad-9905-24d3cfc72701")
 	)
 	(wire
 		(pts
@@ -4146,6 +4432,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 68.58) (xy 92.71 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3966ef0b-d33d-4874-bebc-70566a724643")
+	)
+	(wire
+		(pts
 			(xy 116.84 156.21) (xy 113.03 156.21)
 		)
 		(stroke
@@ -4196,13 +4492,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 60.96) (xy 111.76 76.2)
+			(xy 100.33 68.58) (xy 97.79 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c8030a2-bdcc-46e6-bd93-302040653024")
+		(uuid "4bf486eb-e04e-4c53-8b44-2ff53307716d")
 	)
 	(wire
 		(pts
@@ -4596,6 +4892,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 68.58) (xy 100.33 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9f23a1-6d0c-4c01-9ee7-4bd09a32ff41")
+	)
+	(wire
+		(pts
 			(xy 73.66 165.1) (xy 80.01 165.1)
 		)
 		(stroke
@@ -4683,6 +4989,16 @@
 			(type default)
 		)
 		(uuid "a840adcb-82fe-458d-8fda-15ad56215a86")
+	)
+	(wire
+		(pts
+			(xy 102.87 68.58) (xy 105.41 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafdec0b-7f0f-4a68-a4ba-c6f5fc52c5db")
 	)
 	(wire
 		(pts
@@ -4846,16 +5162,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 68.58) (xy 101.6 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3615cff-1f51-47b1-b086-69b32e50626c")
-	)
-	(wire
-		(pts
 			(xy 96.52 27.94) (xy 99.06 27.94)
 		)
 		(stroke
@@ -4953,16 +5259,6 @@
 			(type default)
 		)
 		(uuid "e994fb2b-f542-47a2-b00a-2f0d1b9e237d")
-	)
-	(wire
-		(pts
-			(xy 101.6 68.58) (xy 104.14 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea680a82-c4f5-4fa3-afee-248c9a190cad")
 	)
 	(wire
 		(pts
@@ -5164,7 +5460,7 @@
 			)
 		)
 	)
-	(global_label "SPI_MOSI"
+	(global_label "MOSI"
 		(shape input)
 		(at 81.28 35.56 180)
 		(fields_autoplaced yes)
@@ -5176,7 +5472,7 @@
 		)
 		(uuid "4488ef6b-950a-4fd8-a4fd-caccaf6e55fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.0419 35.56 0)
+			(at 73.6986 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5260,7 +5556,7 @@
 			)
 		)
 	)
-	(global_label "SPI_MISO"
+	(global_label "MISO"
 		(shape input)
 		(at 81.28 38.1 180)
 		(fields_autoplaced yes)
@@ -5272,7 +5568,7 @@
 		)
 		(uuid "7b33567b-fa82-4f88-a09c-d7708438c0c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.6467 38.1 0)
+			(at 73.6986 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5500,7 +5796,7 @@
 			)
 		)
 	)
-	(global_label "SPI_SCK"
+	(global_label "SCK"
 		(shape input)
 		(at 81.28 40.64 180)
 		(fields_autoplaced yes)
@@ -5512,7 +5808,7 @@
 		)
 		(uuid "c67dce4c-fdbf-4991-ae6a-0e49fe4c70d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.0419 40.64 0)
+			(at 74.5453 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9530,6 +9826,9 @@
 		)
 		(pin "20"
 			(uuid "19650dc0-9b30-4212-8d12-e8096f4b9a02")
+		)
+		(pin "21"
+			(uuid "271a5556-5af5-4c3b-bbcd-83174946fe98")
 		)
 		(instances
 			(project "esp"
@@ -16882,7 +17181,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 68.58 0)
+		(at 105.41 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16892,7 +17191,7 @@
 		(dnp no)
 		(uuid "e4e22d1f-fb24-4e52-bb27-55d79312c450")
 		(property "Reference" "#PWR030"
-			(at 104.14 74.93 0)
+			(at 105.41 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16903,7 +17202,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.394 73.152 0)
+			(at 105.664 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16913,7 +17212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 68.58 0)
+			(at 105.41 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16924,7 +17223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 68.58 0)
+			(at 105.41 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16935,7 +17234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 68.58 0)
+			(at 105.41 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
