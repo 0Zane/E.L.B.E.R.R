@@ -5604,7 +5604,7 @@
 			)
 		)
 	)
-	(global_label "LP"
+	(global_label "LE"
 		(shape input)
 		(at 229.87 129.54 180)
 		(fields_autoplaced yes)
@@ -5616,7 +5616,7 @@
 		)
 		(uuid "95a1221e-54f8-4ed2-8900-080534eda1d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.5867 129.54 0)
+			(at 224.7077 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5652,7 +5652,7 @@
 			)
 		)
 	)
-	(global_label "RP"
+	(global_label "RE"
 		(shape input)
 		(at 232.41 129.54 0)
 		(fields_autoplaced yes)
@@ -5664,7 +5664,7 @@
 		)
 		(uuid "a8394032-3aa8-487a-a7ce-ddcf78ea548d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.9352 129.54 0)
+			(at 237.8142 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5772,7 +5772,7 @@
 			)
 		)
 	)
-	(global_label "RP"
+	(global_label "RE"
 		(shape input)
 		(at 247.65 134.62 0)
 		(fields_autoplaced yes)
@@ -5784,7 +5784,7 @@
 		)
 		(uuid "c6214d14-7261-4974-868e-5bc004820b26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.1752 134.62 0)
+			(at 253.0542 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5892,7 +5892,7 @@
 			)
 		)
 	)
-	(global_label "LP"
+	(global_label "LE"
 		(shape input)
 		(at 200.66 134.62 0)
 		(fields_autoplaced yes)
@@ -5904,7 +5904,7 @@
 		)
 		(uuid "f9b0c079-f58f-4b3a-a2ba-7a7a3237f62e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.9433 134.62 0)
+			(at 205.8223 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8253,7 +8253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 229.87 146.05 0)
 			(hide yes)
 			(show_name no)
