@@ -5484,7 +5484,7 @@
 			)
 		)
 	)
-	(global_label "LP"
+	(global_label "LH"
 		(shape input)
 		(at 224.79 137.16 180)
 		(fields_autoplaced yes)
@@ -5496,7 +5496,7 @@
 		)
 		(uuid "57828507-2559-459f-ab1b-4fe0dd924374")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.5067 137.16 0)
+			(at 219.4462 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5604,7 +5604,7 @@
 			)
 		)
 	)
-	(global_label "LH"
+	(global_label "LP"
 		(shape input)
 		(at 229.87 129.54 180)
 		(fields_autoplaced yes)
@@ -5616,7 +5616,7 @@
 		)
 		(uuid "95a1221e-54f8-4ed2-8900-080534eda1d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.5262 129.54 0)
+			(at 224.5867 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5652,7 +5652,7 @@
 			)
 		)
 	)
-	(global_label "RH"
+	(global_label "RP"
 		(shape input)
 		(at 232.41 129.54 0)
 		(fields_autoplaced yes)
@@ -5664,7 +5664,7 @@
 		)
 		(uuid "a8394032-3aa8-487a-a7ce-ddcf78ea548d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.9957 129.54 0)
+			(at 237.9352 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5868,7 +5868,7 @@
 			)
 		)
 	)
-	(global_label "RP"
+	(global_label "RH"
 		(shape input)
 		(at 237.49 137.16 0)
 		(fields_autoplaced yes)
@@ -5880,7 +5880,7 @@
 		)
 		(uuid "f16c153b-58d5-40be-80e0-607325da1528")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.0152 137.16 0)
+			(at 243.0757 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

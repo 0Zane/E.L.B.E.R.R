@@ -6133,7 +6133,7 @@
 	)
 	(global_label "NRF_CSN"
 		(shape input)
-		(at 217.17 66.04 180)
+		(at 205.74 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6143,7 +6143,7 @@
 		)
 		(uuid "f00c85ee-ceef-43bf-9ba5-34b9aa12eab4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.9319 66.04 0)
+			(at 193.5019 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

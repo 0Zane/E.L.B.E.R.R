@@ -4,9 +4,9 @@
 
 //SPI BUS
 #define MOSI 11
-#define MISO 13
+#define MISO 10
 #define SCK 12
-#define NRF_CSN 10
+#define NRF_CSN 13
 #define NRF_CE 14
 
 //UART WITH RASPBERRY PI
