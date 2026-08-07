@@ -4116,6 +4116,12 @@
 		(uuid "e1533d0e-3017-43ea-86db-962ff5c75bb8")
 	)
 	(junction
+		(at 125.73 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3195773-a57a-4b9b-a443-12625714f5cd")
+	)
+	(junction
 		(at 83.82 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6284,6 +6290,84 @@
 			(project "esp"
 				(path "/1af9f8de-01c4-4db4-9e1a-5a2acf839c86"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 125.73 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02b3b6d5-5b26-48df-943e-c56a89b29682")
+		(property "Reference" "#PWR058"
+			(at 125.73 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 124.206 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 125.73 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fb489f9-e65c-4d85-bc79-800d0d39e319")
+		)
+		(instances
+			(project "esp"
+				(path "/1af9f8de-01c4-4db4-9e1a-5a2acf839c86"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
