@@ -3749,7 +3749,7 @@
 	)
 	(rectangle
 		(start 187.325 121.285)
-		(end 242.57 157.48)
+		(end 280.035 157.48)
 		(stroke
 			(width 0)
 			(type default)
@@ -3790,6 +3790,16 @@
 			)
 		)
 		(uuid "5b632efb-6583-4d39-822c-7e5625a1ed19")
+	)
+	(text "I2C Header pins"
+		(exclude_from_sim no)
+		(at 250.952 125.222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d603db7-83e2-4528-b997-4e5aaf61ba8f")
 	)
 	(text "USB to UART converter"
 		(exclude_from_sim no)
@@ -5633,6 +5643,30 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 252.73 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20a6ee1d-1d2e-46b3-823b-3b6a49cf9fb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.2228 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "TX"
 		(shape input)
 		(at 247.65 38.1 0)
@@ -5801,6 +5835,30 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 252.73 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b4bebf0-e4de-442b-8da3-b054b3c19140")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.2833 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "BOOT"
 		(shape input)
 		(at 252.73 106.68 180)
@@ -5947,7 +6005,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 217.17 73.66 180)
+		(at 217.17 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5957,7 +6015,7 @@
 		)
 		(uuid "9721f7fa-504f-45c2-9820-fed237f8b6a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.5886 73.66 0)
+			(at 209.5886 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6139,7 +6197,7 @@
 	)
 	(global_label "NRF_CSN"
 		(shape input)
-		(at 205.74 66.04 180)
+		(at 217.17 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6149,7 +6207,7 @@
 		)
 		(uuid "f00c85ee-ceef-43bf-9ba5-34b9aa12eab4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.5019 66.04 0)
+			(at 204.9319 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7171,6 +7229,107 @@
 			(project "esp"
 				(path "/1af9f8de-01c4-4db4-9e1a-5a2acf839c86"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 247.65 140.97 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17d31b22-f2fa-46ee-857b-7db94cd0e15c")
+		(property "Reference" "J9"
+			(at 247.65 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 243.84 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 247.65 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 247.65 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 247.65 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7272da84-bb59-47db-860b-ad413431bef7")
+		)
+		(pin "1"
+			(uuid "9ffdc5bd-fbad-4ca4-8536-ae13ff353825")
+		)
+		(instances
+			(project "esp"
+				(path "/1af9f8de-01c4-4db4-9e1a-5a2acf839c86"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -13907,7 +14066,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 172.72 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
