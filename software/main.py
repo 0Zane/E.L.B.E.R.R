@@ -12,5 +12,5 @@ if __name__ == "__main__":
     bootsound()
     while True:
         text = listen()
-        response = client.generate(model=model, prompt=text)
+        response = client.generate(model=model, prompt=text, think=False)
         speak(response)
