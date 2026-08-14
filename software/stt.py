@@ -1,13 +1,14 @@
 import sounddevice as sd
 import numpy as np
+from scipy.signal import resample_poly
 from faster_whisper import WhisperModel
 
-MODEL = "tiny.en"
-SAMPLE_RATE = 16000
+INPUT_RATE = 48000
+WHISPER_RATE = 16000
 CHUNK_SECONDS = 3
 
 model = WhisperModel(
-    MODEL,
+    "tiny.en",
     device="cpu",
     compute_type="int8"
 )
@@ -15,16 +16,20 @@ model = WhisperModel(
 print("Listening...")
 
 while True:
+
     audio = sd.rec(
-        int(CHUNK_SECONDS * SAMPLE_RATE),
-        samplerate=SAMPLE_RATE,
+        int(CHUNK_SECONDS * INPUT_RATE),
+        samplerate=INPUT_RATE,
         channels=1,
-        dtype="float32"
+        dtype="float32",
+        device=0
     )
 
     sd.wait()
 
     audio = audio.flatten()
+
+    audio = resample_poly(audio, WHISPER_RATE, INPUT_RATE)
 
     segments, info = model.transcribe(
         audio,
