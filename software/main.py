@@ -1,6 +1,16 @@
 from ai import LLM
+from stt import listen
+from tts import speak
+from boot import bootsound
+import ollama
+
+# Initialize the Ollama client
+client = ollama.Client()
+
 
 if __name__ == "__main__":
+    bootsound()
     while True:
-        user_prompt = input("Speak to AI: \n")
-        print(LLM(user_prompt))
+        text = listen()
+        response = LLM(text)
+        speak(response)
