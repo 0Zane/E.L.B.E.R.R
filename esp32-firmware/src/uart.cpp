@@ -4,8 +4,10 @@
 #include "body.h"
 #include "wififeatures.h"
 
+HardwareSerial rp5Serial(2); 
+
 void uartBegin(){
-    HardwareSerial rp5Serial(2); 
+    
     rp5Serial.begin(115200, SERIAL_8N1, 18, 17);
 }
 void uartSendTemperature(){
@@ -23,7 +25,7 @@ void uartSendNWifi(){
     rp5Serial.print(nScannedWifi());
 }
 void uartSendWifiSSID(){
-    rp5Serial.print(wifinames(10));
+    rp5Serial.print("wifinames()");
 }
 
 String uartReadMessage();

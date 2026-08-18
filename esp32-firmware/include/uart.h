@@ -8,3 +8,4 @@ void uartSendNWifi()
 void uartSendWifiSSID();
 
 String uartReadMessage();
+extern HardwareSerial rp5Serial;
