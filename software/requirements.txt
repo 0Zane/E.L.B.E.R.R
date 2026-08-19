@@ -1,1 +1,4 @@
-requests
+faster-whisper
+sounddevice
+numpy
+ollama

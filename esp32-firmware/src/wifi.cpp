@@ -8,10 +8,10 @@ int nScannedWifi(){
     return WiFi.scanNetworks();
 }
 
-array<String,10> wifinames(int nWifi){
-    String names[10];
-    for (int i = 0; i < nWifi; i ++){
-        names[i] = WiFi.ssid(i);
+array<String,10> wifinames(){
+    std::array<String, 10> names;
+    for (int i = 0; i < 10; i ++){
+        names[i] = WiFi.SSID(i);
     }
     return names;
 

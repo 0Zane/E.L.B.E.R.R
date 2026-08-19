@@ -1,7 +1,7 @@
 //Include system libraries
 #include <Arduino.h>
 #include <Wire.h>
-
+#include <string>
 //Include custom header files
 #include "pins.h"
 #include "body.h"
@@ -9,7 +9,7 @@
 #include "nrf24.h"
 #include "wififeatures.h"
 
-String receivedMessage = "";
+string receivedMessage = "";
 
 void setup() {
 
