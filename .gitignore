@@ -19,8 +19,12 @@
 **/*-backups/
 **/backups/
 
+# Generated ESP production files
+/hardware/esp/production/
+
 # Editor and OS noise
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+
