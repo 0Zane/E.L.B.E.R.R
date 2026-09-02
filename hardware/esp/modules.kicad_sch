@@ -8772,7 +8772,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 42.926 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11950,7 +11950,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 215.9 23.368 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13952,7 +13952,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 62.484 175.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15595,7 +15595,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 62.23 163.068 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15735,7 +15735,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 61.976 157.988 90)
 			(show_name no)
 			(do_not_autoplace no)
