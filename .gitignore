@@ -18,6 +18,14 @@
 # Backup folders
 **/*-backups/
 **/backups/
+**/production/
+
+# STM32 firmware build/project files
+/stm32-firmware/stm/
+
+# Python cache files
+**/__pycache__/
+*.pyc
 
 # Generated ESP production files
 /hardware/esp/production/
