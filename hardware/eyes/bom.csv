@@ -1,0 +1,6 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"C1,C2","2","0.1uF","","","","Capacitor_SMD:C_0805_2012Metric",""
+"C7","1","100uF","","","","Capacitor_THT:CP_Radial_D8.0mm_P3.50mm",""
+"J1,J2,J3,J4","4","Conn_01x09_Pin","","","","Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical",""
+"J5","1","Barrel_Jack","","","","Connector_BarrelJack:BarrelJack_Horizontal",""
+"J8,J9","2","Conn_01x22","","","","Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11022_1x22-1MP_P0.5mm_Horizontal",""

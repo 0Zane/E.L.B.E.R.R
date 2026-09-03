@@ -2053,10 +2053,6 @@
 		(uuid "01bae6eb-5e4a-4232-985e-6c6ee5658a67")
 	)
 	(no_connect
-		(at 213.36 43.18)
-		(uuid "4016637d-d769-45c7-9d46-a8b3e857bd27")
-	)
-	(no_connect
 		(at 152.4 92.71)
 		(uuid "4c38d4d5-0e53-4916-8cb7-cd9b2ac5fe9d")
 	)
@@ -2075,10 +2071,6 @@
 	(no_connect
 		(at 180.34 92.71)
 		(uuid "ac1e3664-cb65-4e17-accf-ce931db2b193")
-	)
-	(no_connect
-		(at 222.25 64.77)
-		(uuid "cb260f61-4d86-43c4-b3da-e55d4bc2e383")
 	)
 	(wire
 		(pts
@@ -4140,7 +4132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 223.52 63.246 0)
 			(hide yes)
 			(show_name no)
