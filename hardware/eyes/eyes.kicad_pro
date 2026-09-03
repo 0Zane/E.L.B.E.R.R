@@ -39,15 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-<<<<<<< HEAD
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
-=======
           "drill": 2.2,
           "height": 3.8,
           "width": 3.8
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -56,12 +50,6 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-<<<<<<< HEAD
-          "min_clearance": 0.5
-        }
-      },
-      "diff_pair_dimensions": [],
-=======
           "min_clearance": 0.1
         }
       },
@@ -72,7 +60,6 @@
           "width": 0.0
         }
       ],
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -206,14 +193,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-<<<<<<< HEAD
-      "track_widths": [],
-=======
       "track_widths": [
         0.0,
         1.3
       ],
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -240,16 +223,12 @@
           "spacing": 0.6
         }
       },
-<<<<<<< HEAD
-      "via_dimensions": [],
-=======
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
         }
       ],
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -555,11 +534,7 @@
       "method": 0,
       "sort_order": 0
     },
-<<<<<<< HEAD
-    "bom_export_filename": "${PROJECTNAME}.csv",
-=======
     "bom_export_filename": "bom.csv",
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -621,8 +596,6 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-<<<<<<< HEAD
-=======
         },
         {
           "group_by": false,
@@ -635,17 +608,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-<<<<<<< HEAD
-      "name": "Default Editing",
-=======
       "name": "",
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -690,11 +658,7 @@
         "uuid": "69aeb8ce-f0eb-4f16-9ca4-e7a062499ff4"
       }
     ],
-<<<<<<< HEAD
-    "used_designators": "J1-3,C1-2",
-=======
-    "used_designators": "J1-15,C1-7,#PWR1-47",
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

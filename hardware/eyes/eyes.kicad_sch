@@ -669,8 +669,6 @@
 			)
 			(embedded_fonts no)
 		)
-<<<<<<< HEAD
-=======
 		(symbol "Connector_Generic:Conn_01x22"
 			(pin_names
 				(offset 1.016)
@@ -1409,7 +1407,6 @@
 			)
 			(embedded_fonts no)
 		)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1742,12 +1739,6 @@
 			)
 			(embedded_fonts no)
 		)
-<<<<<<< HEAD
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x09_Pin")
-		(at 85.09 54.61 270)
-=======
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -2062,6 +2053,10 @@
 		(uuid "01bae6eb-5e4a-4232-985e-6c6ee5658a67")
 	)
 	(no_connect
+		(at 213.36 43.18)
+		(uuid "4016637d-d769-45c7-9d46-a8b3e857bd27")
+	)
+	(no_connect
 		(at 152.4 92.71)
 		(uuid "4c38d4d5-0e53-4916-8cb7-cd9b2ac5fe9d")
 	)
@@ -2080,6 +2075,10 @@
 	(no_connect
 		(at 180.34 92.71)
 		(uuid "ac1e3664-cb65-4e17-accf-ce931db2b193")
+	)
+	(no_connect
+		(at 222.25 64.77)
+		(uuid "cb260f61-4d86-43c4-b3da-e55d4bc2e383")
 	)
 	(wire
 		(pts
@@ -2922,7 +2921,6 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 85.09 132.08 180)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2930,17 +2928,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-<<<<<<< HEAD
-		(fields_autoplaced yes)
-		(uuid "4ad3c4a0-59a7-4d64-a364-7f57dc79d7e3")
-		(property "Reference" "J2"
-			(at 85.09 49.53 90)
-=======
 		(uuid "0f557f41-2513-402d-9b9c-7657f17c6d46")
 		(property "Reference" "#PWR011"
 			(at 85.09 125.73 0)
 			(hide yes)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2949,13 +2940,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" "Conn_01x09_Pin"
-			(at 85.09 52.07 90)
-=======
 		(property "Value" "GND"
 			(at 85.344 128.016 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2965,11 +2951,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 85.09 54.61 0)
-=======
 			(at 85.09 132.08 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2980,9 +2962,6 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 85.09 54.61 0)
-=======
 			(at 85.09 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3446,7 +3425,6 @@
 		)
 		(property "Datasheet" ""
 			(at 180.34 52.07 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3457,11 +3435,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-<<<<<<< HEAD
-			(at 85.09 54.61 0)
-=======
 			(at 180.34 52.07 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3501,24 +3475,15 @@
 		(instances
 			(project "eyes"
 				(path "/69aeb8ce-f0eb-4f16-9ca4-e7a062499ff4"
-<<<<<<< HEAD
-					(reference "J2")
-=======
 					(reference "J3")
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "Connector:Barrel_Jack")
-		(at 77.47 88.9 0)
-=======
 		(lib_id "power:+5V")
 		(at 137.16 57.15 180)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3526,17 +3491,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-<<<<<<< HEAD
-		(fields_autoplaced yes)
-		(uuid "98eb1bc0-e835-496c-b634-e713df18dd0b")
-		(property "Reference" "J3"
-			(at 77.47 80.01 0)
-=======
 		(uuid "4ecb5fcb-d0bf-4a91-ba24-46f98d4b910c")
 		(property "Reference" "#PWR02"
 			(at 137.16 53.34 0)
 			(hide yes)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3545,13 +3503,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" "Barrel_Jack"
-			(at 77.47 82.55 0)
-=======
 		(property "Value" "+5V"
 			(at 136.906 61.468 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3560,13 +3513,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal"
-			(at 78.74 89.916 0)
-=======
 		(property "Footprint" ""
 			(at 137.16 57.15 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3577,11 +3525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 78.74 89.916 0)
-=======
 			(at 137.16 57.15 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3591,13 +3535,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Description" "DC Barrel Jack"
-			(at 77.47 88.9 0)
-=======
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 137.16 57.15 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3608,36 +3547,20 @@
 			)
 		)
 		(pin "1"
-<<<<<<< HEAD
-			(uuid "9823fb4b-4696-4fea-a222-5a4a23b06f61")
-		)
-		(pin "2"
-			(uuid "89ad2e46-2977-47a0-97cc-d4237b71b0cf")
-=======
 			(uuid "1951c2cb-2163-4680-8ff1-54d255f1bef5")
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 		)
 		(instances
 			(project "eyes"
 				(path "/69aeb8ce-f0eb-4f16-9ca4-e7a062499ff4"
-<<<<<<< HEAD
-					(reference "J3")
-=======
 					(reference "#PWR02")
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "Device:C")
-		(at 36.83 69.85 90)
-=======
 		(lib_id "Connector:Conn_01x09_Pin")
 		(at 144.78 52.07 270)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3646,15 +3569,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< HEAD
-		(uuid "f13afa4d-49ae-4dbe-9058-dd94b0709f83")
-		(property "Reference" "C2"
-			(at 36.83 62.23 90)
-=======
 		(uuid "50e397f4-71e4-46fd-842c-fb3e2220d5af")
 		(property "Reference" "J1"
 			(at 144.78 46.99 90)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3663,13 +3580,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" "C"
-			(at 36.83 64.77 90)
-=======
 		(property "Value" "Conn_01x09_Pin"
 			(at 144.78 49.53 90)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3678,13 +3590,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Footprint" ""
-			(at 40.64 68.8848 0)
-=======
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 144.78 52.07 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,9 +3602,6 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 36.83 69.85 0)
-=======
 			(at 144.78 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4637,7 +4541,6 @@
 		)
 		(property "Datasheet" ""
 			(at 91.44 132.08 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4648,9 +4551,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-<<<<<<< HEAD
-			(at 36.83 69.85 0)
-=======
 			(at 91.44 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5436,7 +5336,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 72.39 132.08 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5455,24 +5354,15 @@
 		(instances
 			(project "eyes"
 				(path "/69aeb8ce-f0eb-4f16-9ca4-e7a062499ff4"
-<<<<<<< HEAD
-					(reference "C2")
-=======
 					(reference "C1")
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-<<<<<<< HEAD
-		(lib_id "Connector:Conn_01x09_Pin")
-		(at 46.99 54.61 270)
-=======
 		(lib_id "power:GND")
 		(at 66.04 132.08 180)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5480,17 +5370,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-<<<<<<< HEAD
-		(fields_autoplaced yes)
-		(uuid "fd93f48f-2f6c-4b0a-be4c-e50b82906cd8")
-		(property "Reference" "J1"
-			(at 46.99 49.53 90)
-=======
 		(uuid "f29acb1d-4311-47d9-b3f1-d23a5c44d284")
 		(property "Reference" "#PWR01"
 			(at 66.04 125.73 0)
 			(hide yes)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5499,13 +5382,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" "Conn_01x09_Pin"
-			(at 46.99 52.07 90)
-=======
 		(property "Value" "GND"
 			(at 66.294 128.016 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5515,11 +5393,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< HEAD
-			(at 46.99 54.61 0)
-=======
 			(at 66.04 132.08 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5530,9 +5404,6 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 46.99 54.61 0)
-=======
 			(at 66.04 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5765,7 +5636,6 @@
 		)
 		(property "Datasheet" ""
 			(at 144.78 87.63 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5776,11 +5646,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-<<<<<<< HEAD
-			(at 46.99 54.61 0)
-=======
 			(at 144.78 87.63 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5820,11 +5686,7 @@
 		(instances
 			(project "eyes"
 				(path "/69aeb8ce-f0eb-4f16-9ca4-e7a062499ff4"
-<<<<<<< HEAD
-					(reference "J1")
-=======
 					(reference "J2")
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 					(unit 1)
 				)
 			)
@@ -5832,11 +5694,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-<<<<<<< HEAD
-		(at 36.83 78.74 270)
-=======
 		(at 237.49 63.5 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5845,13 +5703,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffa49c8c-89de-486d-8d5e-97724a3b0cc2")
-<<<<<<< HEAD
-		(property "Reference" "C1"
-			(at 36.83 83.82 90)
-=======
 		(property "Reference" "C7"
 			(at 246.634 66.04 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5860,13 +5713,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" "C_Polarized"
-			(at 36.83 86.36 90)
-=======
 		(property "Value" "100uF"
 			(at 246.634 63.5 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5875,13 +5723,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Footprint" ""
-			(at 33.02 79.7052 0)
-=======
 		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 238.4552 67.31 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5892,11 +5735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-<<<<<<< HEAD
-			(at 36.83 78.74 0)
-=======
 			(at 237.49 63.5 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5907,11 +5746,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-<<<<<<< HEAD
-			(at 36.83 78.74 0)
-=======
 			(at 237.49 63.5 0)
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5930,9 +5765,6 @@
 		(instances
 			(project "eyes"
 				(path "/69aeb8ce-f0eb-4f16-9ca4-e7a062499ff4"
-<<<<<<< HEAD
-					(reference "C1")
-=======
 					(reference "C7")
 					(unit 1)
 				)
@@ -6011,7 +5843,6 @@
 			(project "eyes"
 				(path "/69aeb8ce-f0eb-4f16-9ca4-e7a062499ff4"
 					(reference "#PWR025")
->>>>>>> 7c61fc2 (Finishing eyes board schematics, and PCB)
 					(unit 1)
 				)
 			)
