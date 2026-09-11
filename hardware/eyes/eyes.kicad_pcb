@@ -7251,7 +7251,6 @@
 			(at -7.499999 1.775 270)
 			(size 1 1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "GND")
 			(options
 				(clearance outline)
 				(anchor circle)
@@ -7271,7 +7270,6 @@
 			(at 7.499999 1.775 270)
 			(size 1 1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "GND")
 			(options
 				(clearance outline)
 				(anchor circle)
@@ -7831,7 +7829,6 @@
 			(at -7.499999 1.775 90)
 			(size 1 1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "GND")
 			(options
 				(clearance outline)
 				(anchor circle)
@@ -7851,7 +7848,6 @@
 			(at 7.499999 1.775 90)
 			(size 1 1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "GND")
 			(options
 				(clearance outline)
 				(anchor circle)
