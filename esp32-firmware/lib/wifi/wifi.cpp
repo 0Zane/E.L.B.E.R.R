@@ -17,3 +17,9 @@ array<String,10> wifinames(){
 
 
 }
+
+void beacon_spam(int nwifi){
+    //initialize a const char* const ssids[] containing elberr related SSIDs
+    //Create the AP on different channels
+
+}

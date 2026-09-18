@@ -1,21 +1,22 @@
 //I2C BUS 
-#define SCL 9
-#define SDA 8
+#define I2C_SCL 9
+#define I2C_SDA 8
 
 //SPI BUS
-#define MOSI 11
-#define MISO 10
-#define SCK 12
+#define SPI_MOSI 11
+#define SPI_MISO 10
+#define SPI_SCK 12
 #define NRF_CSN 13
 #define NRF_CE 14
 
 //UART WITH RASPBERRY PI
-#define TX 17
-#define RX 18
+#define UART1_RX_PIN 17
+#define  UART1_TX_PIN 18
 
 //LED
 #define NRFLED 1
-#define OSKULL 2
-#define CSKULL 3
-#define NFSKULL 4
-#define TEMP 7
+#define OSKULLLED 2
+#define CSKULLLED 3
+#define NFSKULLLED 4
+#define TEMPLED 7
+

@@ -15,7 +15,7 @@ void setup() {
 
 
   Serial.begin(9600);
-  Wire.begin(SDA, SCL);
+  Wire.begin(I2C_SDA, I2C_SCL);
   Wire.setClock(400000L);
 
   if (!initBME280()) {
