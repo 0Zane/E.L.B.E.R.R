@@ -45,7 +45,27 @@ real-time embedded systems.
 </div>
 
 ---
-# Architecture Changes
+
+## Built Robot Gallery
+
+A few photos from the assembled robot, scaled for cleaner viewing in the repository.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="./pictures/elberr1.webp" alt="E.L.B.E.R.R. assembled robot front view" width="320" /></td>
+      <td align="center"><img src="./pictures/elberr2.webp" alt="E.L.B.E.R.R. assembled robot side view" width="320" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="./pictures/elberr3.webp" alt="E.L.B.E.R.R. assembled robot face detail" width="320" /></td>
+      <td align="center"><img src="./pictures/elberr4.webp" alt="E.L.B.E.R.R. assembled robot close-up" width="320" /></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+# Architecture
 
 ## Core Concept
 
@@ -63,16 +83,16 @@ The Raspberry Pi 5, ESP32-S3, and STM32 communicate with one another over UART.
 flowchart LR
   Camera[Camera] --> Pi[Raspberry Pi 5]
   Mic[Microphone] --> Pi
-    Other[Embedded Sensors] --> ESP
+  Other[Embedded Sensors] --> ESP
 
   Pi <-->|UART| ESP[ESP32-S3]
 
-    Pi --> AI[Local AI System]
-    AI --> Behavior[Behavior Engine]
+  Pi --> AI[Local AI System]
+  AI --> Behavior[Behavior Engine]
 
   Pi <-->|UART| STM[STM32]
-    STM --> Servos[Servos]
-    STM --> Actuators[Animatronic Actuators]
+  STM --> Servos[Servos]
+  STM --> Actuators[Animatronic Actuators]
 ```
 
 ---
@@ -141,43 +161,85 @@ The STM32 is responsible for how the robot **moves**.
 
 ---
 
+## Hardware Schematics
+
+The design files in the repository include the core hardware schematics and module layouts for the robot control system.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><h3>ESP modules</h3><img src="./hardware/modules.svg" alt="E.L.B.E.R.R. hardware module overview" width="420" /></td>
+      <td align="center"><h3>ESP32-S3 board</h3><img src="./hardware/esp.svg" alt="ESP32-S3 schematic" width="420" /></td>
+      <td align="center"><h3>Eye module</h3><img src="./hardware/eyes.svg" alt="Eye module schematic" width="420" /></td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ## Project Structure
 
 ```text
-E.L.B.E.R.R./
-|-- software/
-|   |-- ai.py
-|   |-- boot.py
-|   |-- llm.py
-|   |-- main.py
-|   |-- memory/
-|   |-- Modelfile
-|   |-- README.md
-|   |-- requirements.txt
-|   |-- stt.py
-|   `-- tts.py
+E.L.B.E.R.R/
+|-- 3dmodels/
 |-- esp32-firmware/
 |   |-- include/
 |   |-- lib/
 |   |-- src/
 |   |-- test/
 |   `-- platformio.ini
-|-- stm32-firmware/
-|   `-- stm/
-|       |-- Core/
-|       |-- Drivers/
-|       |-- Startup/
-|       `-- stm.ioc
 |-- hardware/
+|   |-- README.md
 |   |-- esp/
+|   |   |-- esp.kicad_pro
+|   |   |-- esp.kicad_sch
+|   |   |-- esp.kicad_pcb
+|   |   |-- bom.csv
+|   |   |-- production/
+|   |   `-- esp-backups/
 |   |-- eyes/
+|   |   |-- eyes.kicad_pro
+|   |   |-- eyes.kicad_sch
+|   |   |-- eyes.kicad_pcb
+|   |   |-- bom.csv
+|   |   |-- production/
+|   |   `-- eyes-backups/
 |   |-- stm/
-|   `-- README.md
+|   |   |-- stm.kicad_pro
+|   |   |-- stm.kicad_sch
+|   |   |-- stm.kicad_pcb
+|   |   |-- stm-backups/
+|   |   `-- ...
+|   |-- esp.svg
+|   |-- eyes.svg
+|   `-- modules.svg
+|-- pictures/
+|   |-- elberr1.webp
+|   |-- elberr2.webp
+|   |-- elberr3.webp
+|   `-- elberr4.webp
+|-- software/
+|   |-- README.md
+|   |-- Modelfile
+|   |-- boot.py
+|   |-- llm.py
+|   |-- main.py
+|   |-- requirements.txt
+|   |-- stt.py
+|   |-- tts.py
+|   `-- memory/
+|-- stm32-firmware/
+|   |-- Core/
+|   |-- Drivers/
+|   |-- EWARM/
+|   |-- stm32-firmware.ioc
+|   `-- ...
 |-- index.html
 |-- elberr.jpg
 |-- elberr.png
 |-- README.md
-`-- LICENSE
+|-- LICENSE
+`-- .gitignore (if present)
 ```
 
 ---
