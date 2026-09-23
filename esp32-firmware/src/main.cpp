@@ -8,6 +8,7 @@
 #include "temperature.h"
 #include "nrf24.h"
 #include "wififeatures.h"
+#include "led.h"
 
 string receivedMessage = "";
 
@@ -15,6 +16,8 @@ void setup() {
 
 
   Serial.begin(9600);
+
+  /*
   Wire.begin(I2C_SDA, I2C_SCL);
   Wire.setClock(400000L);
 
@@ -30,13 +33,19 @@ void setup() {
     delay(100);
     Serial.println("VL53L0X started.");
   }
+    */
+
+  ledOn(NRFLED);
+  ledOn(OSKULLLED);
+  ledOn(CSKULLLED);
+  ledOn(NFSKULLLED);
+  ledOn(TEMPLED);
+
+
+
 }
 
 void loop() {
-  Serial.println(skullstate());
-  Serial.println(readTemperature());
-  Serial.println(readHumidity());
-  Serial.println("Scanned wifis:");
-  Serial.println(nScannedWifi());
+  Serial.print("Hello");
   delay(1000);
 }

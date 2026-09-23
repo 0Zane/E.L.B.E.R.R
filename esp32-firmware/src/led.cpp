@@ -10,22 +10,9 @@ void initPins(){
     pinMode(7, OUTPUT);
 }
 
-void nrfLED(bool state){
-    digitalWrite(NRFLED, state);
+void ledOn(int PIN){
+    digitalWrite(PIN, 1);
 }
- 
-void bmeHotLED(bool state){
-    digitalWrite(TEMPLED, state);
-}
-
-void skullOpenLED(bool state){
-    digitalWrite(OSKULLLED, state);
-}
-
-void skullClosedLED(bool state){
-    digitalWrite(CSKULLLED, state);
-}
-
-void skullFloatingLED(bool state){
-    digitalWrite(NFSKULLLED, state);
+void ledOff(int PIN){
+    digitalWrite(PIN, 0);
 }
