@@ -1,7 +1,7 @@
 //Include system libraries
 #include <Arduino.h>
 #include <Wire.h>
-#include <string>
+#include <WiFi.h>
 //Include custom header files
 #include "pins.h"
 #include "body.h"
@@ -9,31 +9,35 @@
 #include "nrf24.h"
 #include "wififeatures.h"
 #include "led.h"
+#include "uart.h"
 
-string receivedMessage = "";
+static bool temperatureReady = false;
+static bool skullReady = false;
 
 void setup() {
-
-
   Serial.begin(9600);
 
-  /*
   Wire.begin(I2C_SDA, I2C_SCL);
   Wire.setClock(400000L);
 
-  if (!initBME280()) {
+  temperatureReady = initBME280();
+  if (!temperatureReady) {
     Serial.println("BME280 did not start.");
   }
 
   Serial.println("Starting VL53L0X...");
-  if (!lox.begin()) {
+  skullReady = lox.begin();
+  if (!skullReady) {
     Serial.println("VL53L0X did not respond.");
   } else {
     lox.startRangeContinuous();
     delay(100);
     Serial.println("VL53L0X started.");
   }
-    */
+
+  WiFi.mode(WIFI_STA);
+  WiFi.disconnect();
+  uartBegin();
 
   ledOn(NRFLED);
   ledOn(OSKULLLED);
@@ -46,6 +50,6 @@ void setup() {
 }
 
 void loop() {
-  Serial.print("Hello");
-  delay(1000);
+  uartHandleMessages(temperatureReady, skullReady);
+  delay(5);
 }
