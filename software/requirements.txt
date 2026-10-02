@@ -2,3 +2,4 @@ faster-whisper
 sounddevice
 numpy
 ollama
+pyserial
