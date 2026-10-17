@@ -1,0 +1,20 @@
+# Build artifacts
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.map
+*.bin
+*.hex
+*.su
+*.log
+
+# IDE / user settings
+.settings/
+*.launch
+*.mxproject
+
+# OS junk
+.DS_Store
+Thumbs.db   
