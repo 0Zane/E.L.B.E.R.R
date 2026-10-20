@@ -64,6 +64,14 @@ static void MX_TIM2_Init(void);
 		uint32_t pulse_length = 500 + (angle *(2500-500)/180);
 		__HAL_TIM_SET_COMPARE(htim, channel, pulse_length);
 	}
+
+	void Blink(uint8_t InitialAngle){
+		Set_Servo_Angle( &htim2, TIM_CHANNEL_1, 90 );
+		Set_Servo_Angle( &htim2, TIM_CHANNEL_2, 90 );
+		HAL_Delay(200);
+		Set_Servo_Angle( &htim2, TIM_CHANNEL_1, InitialAngle );
+		Set_Servo_Angle( &htim2, TIM_CHANNEL_2, InitialAngle );
+	}
 /* USER CODE END 0 */
 
 /**
@@ -99,6 +107,7 @@ int main(void)
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
+  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_2);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -108,9 +117,12 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  Set_Servo_Angle( &htim2, TIM_CHANNEL_1, 100 );
-  }
+
+  Blink(0);
+  HAL_Delay(2000);
+
   /* USER CODE END 3 */
+  }
 }
 
 /**
@@ -212,6 +224,10 @@ static void MX_TIM2_Init(void)
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
   if (HAL_TIM_PWM_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_PWM_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_2) != HAL_OK)
   {
     Error_Handler();
   }
