@@ -70,12 +70,15 @@ static void MX_TIM3_Init(void);
 	}
 
 	void Blink(uint8_t InitialAngle){
-		Set_Servo_Angle( &htim2, TIM_CHANNEL_1, 90 );
-		Set_Servo_Angle( &htim2, TIM_CHANNEL_2, 90 );
-		HAL_Delay(100);
+		Set_Servo_Angle( &htim2, TIM_CHANNEL_1, 100 );
+		Set_Servo_Angle( &htim2, TIM_CHANNEL_2, 100 );
+		HAL_Delay(200);
 		Set_Servo_Angle( &htim2, TIM_CHANNEL_1, InitialAngle );
 		Set_Servo_Angle( &htim2, TIM_CHANNEL_2, InitialAngle );
 	}
+
+  uint32_t previousBlinkTime = 0;
+
 /* USER CODE END 0 */
 
 /**
@@ -121,11 +124,17 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+    
     /* USER CODE BEGIN 3 */
+  uint32_t CurrentTime = HAL_GetTick();
+
+  if (CurrentTime - previousBlinkTime >= 4000){ //LCG value to get {1000,2000,3000,4000,5000,6000}
+    Blink(0);
+    previousBlinkTime = CurrentTime;
+  }
+
+  //READING UART AND TRANSMITTING 
   HAL_UART_Receive_IT(&huart2, (uint8_t*)rx_data, sizeof(rx_data));
-  Blink(0);
-  HAL_Delay(2000);
   HAL_UART_Transmit(&huart2, (uint8_t*)tx_data, sizeof(tx_data), HAL_MAX_DELAY);
   }
   /* USER CODE END 3 */
