@@ -269,6 +269,15 @@ personal robotics, AI, and embedded systems project.
 
 ---
 
+## Credits
+
+Special thanks to the people who helped along the way:
+
+- ESP PCB review: [Estylos](https://github.com/Estylos)
+- Help with STM32 project setup: [Pupariaa](https://github.com/Pupariaa)
+
+---
+
 ## License
 
 This project is licensed under the **MIT License**.
